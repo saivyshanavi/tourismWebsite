@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.tourism-logo {
+    width: 120px;
+    height: 100px;
+    
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight:500;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://pixiehoneymoons.com/wp-content/uploads/2019/03/sandals-resorts-current-vacation-packages-1080x675.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding-left:40px;
+}
+
+.banner-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: "Bree Serif";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: rgb(2, 2, 2);
+    background-color: #ffffff;
+    width: 130px;
+    height: 40px;
+    border-width: 0;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size:14px;
+}
+
+
+.wcu-section {
+    background-color: #f9fbfe;
+    
+}
+
+.wcu-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.wcu-card1 {
+    text-align: center;
+    
+    background-image:url('https://assets.serenity.co.uk/58000-58999/58779/720x480.jpg');
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    height:400px;
+}
+
+
+
+.wcu-card2 {
+    text-align: center;
+    
+    background-image:url('https://www.tripsavvy.com/thmb/zyqX35L3rgFRuVrbGioDKoqPezc=/2121x1414/filters:fill(auto,1)/GettyImages-930881934-5ae56fe48023b90036464e72.jpg');
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    height:400px;
+}
+
+
+.wcu-card3 {
+    text-align: center;
+    
+    background-image:url('https://content.skyscnr.com/m/6f0d202012198702/original/GettyImages-506104167.jpg');
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    height:400px;
+}
+
+
+
+
+
+.wcu-card-title {
+    color: #feffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 800;
+    text-align:center;
+   
+    
+}
+
+.price {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 700;
+    text-align:center;
+    color: #feffff;
+}
+.book-now {
+    color:#d0b200;
+    font-weight:800;
+    font-family: "Roboto";
+}
+
+
+
+
+.flights-section {
+    background-color: #f9fbfe;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+
+.booking-section {
+    margin-top:50px;
+}
+
+.confirm-booking {
+    background-color: #134392;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline:none;
+}
+.details-section {
+    display:flex;
+    flex-direction:row;
+    
+}
+.passengers-details {
+    display:flex;
+    flex-direction:column;
+}
+
+.hotels-section{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.hotels {
+    display:flex;
+    flex-direction:column;
+   
+   
+}
+
+
+.gogaga-logo {
+    height:50px;
+    width:50px;
+    border-radius:50px;
+}
+
+
+.package-section {
+    background-color: white;
+}
+
+.package-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.package-item-image {
+    border-radius: 16px;
+    height:200px;
+    width:80px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+    min-height:100px;
+}
+
+
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+

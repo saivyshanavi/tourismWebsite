@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEf33su0Dwa6g/company-logo_200_200/0/1650267791406?e=2147483647&v=beta&t=sfHuZivK3I-40EyXxDjtJnWVB0eKGR5BI9ToPY3us00" class="tourism-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Holiday Packages
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#flightsSection" id="navItem2">Flights</a>
+                    <a class="nav-link" href="#hotelsSection" id="navItem3">Hotels</a>
+                    <a class="nav-link" href="#packageSection" id="navItem4">Premium Packages</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-left">
+            <h1 class="banner-heading mb-3">Explore the World with Gogaga</h1>
+            <p class="banner-caption mb-4">Unforgettable experiences await. Book your dream vacation today!</p>
+            <button class="custom-button">Book Now</button>
+            
+        </div>
+    </div>
+    <div class="wcu-section pt-5 pb-5" id="wcuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Holiday Packages</h1>
+                    <p class="wcu-section-description">
+                        Explore Our Holiday Packages
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card1 p-3 mb-3 d-flex justify-content-center flex-column">
+                       
+                        <h1 class="wcu-card-title mt-3">Goa</h1>
+                       
+                        <span class="price">Range starts from  INR 8,999 per person</span>
+                        <a href="#" class="book-now">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card2 p-3 mb-3 d-flex justify-content-center flex-column">
+                        <h1 class="wcu-card-title mt-3">Manali</h1>
+                        <span class="price">Range starts from  INR 19,999 per person</span>
+                        <a href="#" class="book-now">Book Now</a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card3 p-3 mb-3 d-flex justify-content-center flex-column">
+                       
+                        <h1 class="wcu-card-title mt-3">Karantaka</h1>
+                        <span class="price">Range starts from  INR 10,999 per person</span>
+                        <a href="#" class="book-now">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="flights-section pt-5 pb-5" id="flightsSection">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-12">
+                    <h1 class="wcu-section-heading">Flight Search & Booking</h1>
+                    
+                </div>
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-center">
+                    <form id="flight-search">
+                        <div class="form-group">
+                        <label for="from">From:</label>
+                        <input type="text" id="from" name="from" placeholder="Enter Departure City">
+                        </div>
+                        <div class="form-group">
+                        <label for="to">To:</label>
+                        <input type="text" id="to" name="to" placeholder="Enter Arrival City">
+                        </div>
+                        <div class="form-group">
+                        <label for="depart-date">Depart Date:</label>
+                        <input type="date" id="depart-date" name="depart-date">
+                        </div>
+                        <div class="form-group">
+                        <label for="return-date">Return Date (Optional):</label>
+                        <input type="date" id="return-date" name="return-date">
+                        </div>
+                        <div class="form-group">
+                        <label for="passengers">Passengers:</label>
+                        <select id="passengers" name="passengers">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                        </div>
+                        <button type="submit" class="search-button">Search Flights</button>
+                    </form>
+
+
+              <div class="booking-section">               
+               
+                <h1 class="wcu-section-heading mt-3">Flight Booking</h1>
+                
+                        <form id="flight-booking">
+                           
+                    <h1 class="wcu-section-heading mt-3">Passenger Information:</h2>
+                    <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+
+                   
+                    <h2 class="wcu-section-heading mt-5">Flight Details:</h2>
+                    <div class="form-group">
+                    <label for="airline">Airline:</label>
+                    <input type="text" id="airline" name="airline" value="Sample Airline" >
+                    </div>
+                    <div class="form-group">
+                    <label for="flight-number">Flight Number:</label>
+                    <input type="text" id="flight-number" name="flight-number" value="S1234">
+                    </div>
+                    <div class="form-group">
+                    <label for="departing-from">Departing From:</label>
+                    <input type="text" id="departing-from" name="departing-from" value="New York (JFK)">
+                    </div>
+               
+                    <div class="form-group">
+                    <label for="arriving-in">Arriving In:</label>
+                    <input type="text" id="arriving-in" name="arriving-in" value="Los Angeles (LAX)">
+                    </div>
+                    <div class="form-group">
+                    <label for="departure-date">Departure Date:</label>
+                    <input type="date" id="departure-date" name="departure-date">
+                    </div>
+                    <div class="form-group">
+                    <label for="arrival-date">Arrival Date:</label>
+                    <input type="date" id="arrival-date" name="arrival-date">
+                    </div>
+                </div>
+                    <h2 class="wcu-section-heading mt-5">Payment Information:</h2>
+                    <div class="form-group">
+                    <label for="card-number">Credit Card Number:</label>
+                    <input type="text" id="card-number" name="card-number" placeholder="****-****-****-****">
+                    </div class="wcu-section-heading">
+                    <div class="form-group">
+                    <label for="expiration-date">Expiration Date:</label>
+                    <input type="month" id="expiration-date" name="expiration-date" placeholder="MM/YY">
+                    </div>
+                    <div class="form-group">
+                    <label for="cvv">CVV:</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="***" >
+                    </div>
+                    <button type="submit" class="confirm-booking">Confirm Booking</button>
+
+                </div>
+                </form>
+                </div>
+               
+            </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="wcu-section pt-5 pb-5" id="hotelsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                   
+                    <h1 class="wcu-section-heading">Hotel Search & Booking</h2>
+                </div>
+                <div class="col-12 col-md-4 hotels-section">
+                    <div class="hotels" id="hotels">
+                       
+                        <form action="#">
+                          <div class="form-group">
+                            <label for="hotel-destination">Destination:</label>
+                            <input type="text" id="hotel-destination" name="hotel-destination" placeholder="Enter your destination city">
+                          </div>
+                          <div class="form-group">
+                            <label for="check-in">Check-in Date:</label>
+                            <input type="date" id="check-in" name="check-in">
+                          </div>
+                          <div class="form-group">
+                            <label for="check-out">Check-out Date:</label>
+                            <input type="date" id="check-out" name="check-out">
+                          </div>
+                          <button type="submit" class="search-button">Find Hotels</button>
+                        </form>
+                    <form action="#">
+                        <h2 class="wcu-section-heading mt-5">Hotel Booking</h2>
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="checkin">Check-in Date:</label>
+                          <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="checkout">Check-out Date:</label>
+                          <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="rooms">Number of Rooms:</label>
+                          <input type="number" id="rooms" name="rooms" min="1" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="comments">Additional Comments:</label>
+                          <textarea id="comments" name="comments"></textarea>
+                        </div>
+                        <button type="submit" class="confirm-booking">Book Now</button>
+                      </form>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+    
+    <div class="package-section pt-5 pb-5" id="packageSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="package-section-heading">Premium Luxury Packages</h1>
+                    <p class="para">Experience the utmost Luxury in Travel</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow package-item-card p-3 mb-3">
+                        <img src="https://cloudinary.fclmedia.com/fctg/image/fetch/w_1080,c_fit,f_webp/q_80/https://travelbox.fclmedia.com/surf-documents/travelbox/tbxcontent/tbx_images/cms_images/md6fKWLJ_2024_02_23/IMG_debd9703-548e-4966-b728-7bc19e735104.jpeg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Riu Palace Mauritius</h1>
+                        <p>7 Nights/5 Days</p>
+                        <p>Rs. 24,000</p>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow package-item-card p-3 mb-3">
+                        <img src="https://cloudinary.fclmedia.com/fctg/image/fetch/w_1080,c_fit,f_webp/q_80/https://travelbox.fclmedia.com/surf-documents/travelbox/tbxcontent/tbx_images/cms_images/MMGnprEz_2023_11_10/IMG_HS3.jpg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Alpine Heath Resort</h1>
+                        <p>5 Nights/5 Days</p>
+                        <p>Rs. 20,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://cloudinary.fclmedia.com/fctg/image/fetch/w_1080,c_fit,f_webp/q_80/https://travelbox.fclmedia.com/surf-documents/travelbox/tbxcontent/tbx_images/cms_images/eEo8FPjO_2023_11_28/IMG_SeyHeroImage.png" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Story Seychelles</h1>
+                        <p>7 Nights/5 Days</p>
+                        <p>Rs. 34,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://cloudinary.fclmedia.com/fctg/image/fetch/w_1080,c_fit,f_webp/q_80/https://travelbox.fclmedia.com/surf-documents/travelbox/tbxcontent/tbx_images/cms_images/eF3gxHfl_2023_09_01/IMG_20b16262-2cf8-431d-b80b-c3b3360cbde1.jpeg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Dolphin Coast</h1>
+                        <p>5 Nights/3 Days</p>
+                        <p>Rs. 40,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://secureservercdn.net/160.153.137.99/pxc.2d9.myftpupload.com/wp-content/uploads/2021/03/dji_0603-1609324899-28-1-2048x1364.jpg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Maldives</h1>
+                        <p>3 Nights/4 Days</p>
+                        <p>Rs. 90,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://elevenmyanmar.com/sites/news-eleven.com/files/news-images/bali01.jpg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Bali</h1>
+                        <p>2 Nights/3 Days</p>
+                        <p>Rs. 70,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://www.amastaysandtrails.com/content/dam/ama/Our-hotels/sholamallay/Hero.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Munnar</h1>
+                        <p>7 Nights/3 Days</p>
+                        <p>Rs. 30,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="package-item-card shadow p-3 mb-3">
+                        <img src="https://www.kashmirtourpackage.org/kashmir-package/assets/images/kashmir-package-1.jpg" class="package-item-image w-100" />
+                        <h1 class="menu-card-title">Incredible Kashmir</h1>
+                        <p>5 Nights/3 Days</p>
+                        <p>Rs. 20,000</p>
+                        <a class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    
+    
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://media-exp1.licdn.com/dms/image/C4D0BAQEf33su0Dwa6g/company-logo_200_200/0/1650267791406?e=2147483647&v=beta&t=sfHuZivK3I-40EyXxDjtJnWVB0eKGR5BI9ToPY3us00" class="gogaga-logo" />
+                    <h1 class="footer-section-mail-id">travel@gogaga.com</h1>
+                    <p class="footer-section-address">
+                        567 Ayur Vigyan Nagar, New Delhi, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
